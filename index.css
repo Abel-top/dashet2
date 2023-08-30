@@ -4,6 +4,8 @@ header {
 }
 .container1{
  background: red;
+ display: flex;
+ 
 }
 #welcome{
     width:200px;
