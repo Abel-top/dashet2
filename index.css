@@ -2,7 +2,7 @@ header {
     background-color:black ;
     width:100%;
 }
-#container1{
+.container1{
  background: red;
 }
 #welcome{
