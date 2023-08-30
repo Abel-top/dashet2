@@ -1,11 +1,11 @@
 header {
     background-color:black ;
-    width: max-content;
+    width:100%;
 }
 #welcome{
     width:200px;
     height:200px;
-    background-color: rgb(187, 57, 57);
+    background-color: rgb(247, 2, 2);
 }
 #img1{
     width:50px;
@@ -13,5 +13,5 @@ header {
 
 }
 h2{
-    color:blue;
+   
 }
