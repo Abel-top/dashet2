@@ -2,10 +2,12 @@ header {
     background-color:black ;
     width:100%;
 }
+#container1{
+ background: red;
+}
 #welcome{
     width:200px;
     height:200px;
-    background-color: rgb(247, 2, 2);
 }
 #img1{
     width:50px;
@@ -14,7 +16,8 @@ header {
 
 }
 .hr1{
-   border:none;
+   border: 1px solid white;
+
    width:150px;
 
 }
