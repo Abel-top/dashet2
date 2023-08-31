@@ -1,6 +1,6 @@
 header {
     background-color:black ;
-    width:100%;
+    width:100vh;
     height: 65px;
 }
 #logo{
@@ -33,7 +33,7 @@ header {
 @keyframes welc {
    
     from {
-        margin-right: 100%;
+        margin-left: 100%;
     }to{
         margin-right:0% ;
     }
