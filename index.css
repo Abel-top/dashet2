@@ -173,6 +173,7 @@ hr{
     width:150px;
     height:50px;
     margin-left: 35px ;
+    animation: fad 3s forwards;
     
 
 }
