@@ -13,7 +13,7 @@ header {
     font-size: 13px;
 }
 .verti{
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     text-orientation:sideways;
     font-size: 55px;
 }
