@@ -190,3 +190,10 @@ color:white;
 display: flex;
 }
 
+#intro{
+font-size: 25px;
+}
+#intro_txt{
+    font-size: 15px;
+
+}
