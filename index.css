@@ -138,6 +138,7 @@ header {
 #miss{
     margin-top: 125px;
     
+
 }
 .human{
     width:200px;
@@ -194,13 +195,11 @@ display: flex;
 
 .intro{
 font-size: 45px;
-margin-left: 75px;
 margin-top: 65px;
 }
 .intro_txt{
     font-size: 15px;
-    margin-left: 65px;
-    margin-top: 65px;
+    margin-top: 15px;
     white-space: pre-wrap;
 
 }
