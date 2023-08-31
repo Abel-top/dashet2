@@ -197,11 +197,15 @@ margin-left: 75px;
 margin-top: 65px;
 }
 .intro_txt{
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 65px;
     margin-top: 65px;
     word-wrap: break-word;
 
+}
+.intro_txt::after{
+    content:"\A";
+    white-space: pre;
 }
 .snmall{
     font-size: 10px;
