@@ -98,18 +98,21 @@ header {
     width: 100%;
     display: flex; 
     color: white;
+    margin-left: 75px;
 }
 .container7{
     background: black;
     width: 100%;
     display: flex; 
     color: white;
+    margin-left: 75px;
 }
 .container8{
     background: black;
     width: 100%;
     display: flex; 
     color: white;
+    margin-left: 75px;
 }
 .main{
     background: black;
@@ -130,6 +133,7 @@ hr{
     width:200px;
     height:150px;
     margin-top: 75px;
+    margin-left: 25px;
 }
 .img2{
     width:150px;
