@@ -217,10 +217,10 @@ margin-top: 65px;
     }
 }
 @keyframes slidin{
-    from{
-        margin-left: 100px;
+    from {
+        margin-left: -100px;
     }to{
-        opacity: 0px;
+        margin-right:0px ;
     }
 }
 
