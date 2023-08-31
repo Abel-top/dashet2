@@ -7,6 +7,11 @@ header {
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
+#wel{
+    font-size: 65px;
+    margin-top: 45px;
+
+}
 #foot{
     font-size: 15px;
 }
@@ -15,6 +20,8 @@ header {
  width: 100%;
  height: 500px;
  display: flex;
+ color: white;
+
  
 }
 .container2{
