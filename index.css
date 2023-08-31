@@ -70,7 +70,9 @@ header {
     height: 800px;
     color: white;
 } 
-
+#miss{
+    margin-top: 125px;
+}
 hr{
     display:block;
 }
