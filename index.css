@@ -5,13 +5,11 @@ header {
 .container1{
  background: red;
  display: flex;
+ -ms-flex-align: start;
  
  
 }
-#welcome{
-    width:200px;
-    height:200px;
-}
+
 .img1{
     width:50px;
     height:50px;
