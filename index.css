@@ -120,6 +120,10 @@ header {
 #miss{
     margin-top: 125px;
 }
+#human{
+    width:200px;
+    height:200px;
+}
 hr{
     display:block;
 }
