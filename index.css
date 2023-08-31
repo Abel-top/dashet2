@@ -7,7 +7,7 @@ header {
     margin-left: 20px;
 }
 #icon2{
-    align-items: flex-end;
+    margin-left:75%;
 }
 #date{
     font-size: 13px;
@@ -165,5 +165,8 @@ hr{
 }
 .main2{
 background: rgb(231, 42, 42);
+width: 100%;
+color:white;
+display: flex;
 }
 
