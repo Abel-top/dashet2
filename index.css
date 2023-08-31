@@ -137,6 +137,7 @@ header {
 }  
 #miss{
     margin-top: 125px;
+    
 }
 .human{
     width:200px;
@@ -200,13 +201,10 @@ margin-top: 65px;
     font-size: 15px;
     margin-left: 65px;
     margin-top: 65px;
-    word-wrap: break-word;
+    white-space: pre-wrap;
 
 }
-.intro_txt::after{
-    content:"\A";
-    white-space: pre;
-}
+
 .snmall{
     font-size: 10px;
 }
