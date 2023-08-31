@@ -21,21 +21,22 @@ header {
 #flow{
     margin-top: 225px;
 }
-@keyframes wel {
-    0% {
-        transform:translateX(0);
-    }
-    100%{
-        transform:translateX(200px);
-    }
-    
-}
+
 #wel{
     font-size: 65px;
     margin-top: 85px;
-    animation:wel 3sec infinite ;
+    animation-duration: 3s ;
+    animation-name: welc;
  
 
+}
+@keyframes welc {
+   
+    from {
+        margin-left: 100%;
+    }to{
+        margin-left:0% ;
+    }
 }
 
 #copy{
