@@ -1,6 +1,6 @@
 header {
     background-color:black ;
-    width:100vh;
+    width:100%;
     height: 65px;
 }
 #logo{
@@ -44,7 +44,7 @@ header {
 }
 #foot{
     font-size: 15px;
-    margin-top: 35px5px;
+    margin-top: 35px;
 }
 .container1{
  background: rgb(214, 49, 49);
@@ -73,6 +73,7 @@ hr{
 .img2{
     width:150px;
     height:50px;
+    margin-left: 35px ;
     
 
 }
