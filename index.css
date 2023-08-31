@@ -28,6 +28,7 @@ header {
     text-orientation:sideways;
     font-size: 55px;
 }
+
 #flow{
     margin-top: 225px;
 }
@@ -35,7 +36,7 @@ header {
 #wel{
     font-size: 65px;
     margin-top: 85px;
-    animation:welc 3s forwards;
+    animation:fadin 3s forwards;
  
 
 }
@@ -207,4 +208,13 @@ margin-top: 65px;
 
 .snmall{
     font-size: 10px;
+}
+
+
+@keyframes fadin{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
 }
