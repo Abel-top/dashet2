@@ -6,6 +6,10 @@ header {
 .verti{
     writing-mode: vertical-lr;
     text-orientation: upright;
+    font-size: 65px;
+}
+#flow{
+    margin-top: 125px;
 }
 #wel{
     font-size: 65px;
