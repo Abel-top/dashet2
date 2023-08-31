@@ -86,6 +86,9 @@ header {
     width: 100%;
     display: flex; 
     color: white;
+}
+.main{
+    background: black;
 }  
 #miss{
     margin-top: 125px;
