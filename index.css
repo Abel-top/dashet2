@@ -133,6 +133,7 @@ header {
 
 .main{
     background: black;
+    writing-mode: horizontal-tb;
 }  
 #miss{
     margin-top: 125px;
