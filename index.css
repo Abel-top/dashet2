@@ -197,6 +197,7 @@ display: flex;
 .intro{
 font-size: 45px;
 margin-top: 65px;
+white-space: pre-wrap;
 }
 .intro_txt{
     font-size: 15px;
