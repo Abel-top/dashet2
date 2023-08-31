@@ -4,16 +4,20 @@ header {
     height: 65px;
 }
 .verti{
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     text-orientation: upright;
 }
 #wel{
     font-size: 65px;
-    margin-top: 45px;
+    margin-top: 85px;
 
+}
+#copy{
+    font-size: 10px;
 }
 #foot{
     font-size: 15px;
+    margin-top: 15px;
 }
 .container1{
  background: red;
