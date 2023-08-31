@@ -4,7 +4,7 @@ header {
     height: 65px;
 }
 
-footer{
+#footer{
     background-color: black;
     width: 100%;
    
@@ -156,7 +156,10 @@ hr{
     
 
 }
-#uni{
+.white{
+    color:white;
+}
+.uni{
     width:200px;
     height:150px;
     margin-top: 75px;
