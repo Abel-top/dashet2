@@ -3,11 +3,16 @@ header {
     width:100%;
     height: 65px;
 }
+footer{
+    background-color: black;
+    width: 100%;
+    height: 65px;
+}
 #logo{
     margin-left: 20px;
 }
 #icon2{
-    margin-left:75%;
+    margin-left:99%;
 }
 #date{
     font-size: 13px;
