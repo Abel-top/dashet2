@@ -14,15 +14,26 @@ header {
 }
 .verti{
     writing-mode: vertical-lr;
+    transform:rotate(180deg);
     text-orientation:sideways;
     font-size: 55px;
 }
 #flow{
     margin-top: 225px;
 }
+@keyframes wel {
+    0% {
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(200px);
+    }
+    
+}
 #wel{
     font-size: 65px;
     margin-top: 85px;
+    animation:wel 3sec infinite ;
  
 
 }
@@ -35,7 +46,7 @@ header {
     margin-top: 35px5px;
 }
 .container1{
- background: rgb(218, 37, 37);
+ background: rgb(226, 90, 0);
  width: 100%;
  height: 500px;
  display: flex;
