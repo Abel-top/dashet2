@@ -190,12 +190,12 @@ color:white;
 display: flex;
 }
 
-#intro{
-font-size: 25px;
+.intro{
+font-size: 35px;
 margin-left: 75px;
 margin-top: 65px;
 }
-#intro_txt{
+.intro_txt{
     font-size: 15px;
     margin-left: 65px;
     margin-top: 65px;
