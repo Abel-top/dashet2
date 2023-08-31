@@ -6,6 +6,7 @@ header {
  background: red;
  display: flex;
  
+ 
 }
 #welcome{
     width:200px;
@@ -22,7 +23,4 @@ header {
 
    width:150px;
 
-}
-#foot{
-    display: inline-block;
 }
