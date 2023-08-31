@@ -192,8 +192,10 @@ display: flex;
 
 #intro{
 font-size: 25px;
+margin-left: 75px;
 }
 #intro_txt{
     font-size: 15px;
+    margin-left: 75px;
 
 }
