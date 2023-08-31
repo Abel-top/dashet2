@@ -33,9 +33,9 @@ header {
 @keyframes welc {
    
     from {
-        margin-left: 100%;
+        margin-right: 100%;
     }to{
-        margin-left:0% ;
+        margin-left:2% ;
     }
 }
 
@@ -70,4 +70,9 @@ hr{
     
 
 }
+.img2{
+    width:150px;
+    height:50px;
+    
 
+}
