@@ -98,21 +98,23 @@ header {
     width: 100%;
     display: flex; 
     color: white;
-    margin-left: 75px;
+    margin-left: 115px;
+}
 }
 .container7{
     background: black;
     width: 100%;
     display: flex; 
     color: white;
-    margin-left: 75px;
+    margin-left: 115px;
 }
 .container8{
     background: black;
     width: 100%;
     display: flex; 
     color: white;
-    margin-left: 75px;
+    margin-left: 115px;
+}
 }
 .main{
     background: black;
@@ -121,6 +123,11 @@ header {
     margin-top: 125px;
 }
 .human{
+    width:200px;
+    height:200px;
+    margin-left:35px;
+}
+#human{
     width:200px;
     height:200px;
     margin-left:35px;
