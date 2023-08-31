@@ -33,9 +33,9 @@ header {
 @keyframes welc {
    
     from {
-        margin-left: 100%;
+        margin-left: -100px;
     }to{
-        margin-right:0% ;
+        margin-right:0px ;
     }
 }
 
@@ -75,4 +75,7 @@ hr{
     height:50px;
     
 
+}
+.first{
+    background: rgb(0, 0, 0);
 }
