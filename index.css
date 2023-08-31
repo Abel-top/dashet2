@@ -33,7 +33,7 @@ header {
     margin-top: 225px;
 }
 
-#wel{
+.wel{
     font-size: 65px;
     margin-top: 85px;
     animation: welc 3s forwards;
