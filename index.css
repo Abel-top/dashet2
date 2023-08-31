@@ -218,3 +218,18 @@ margin-top: 65px;
         opacity: 1;
     }
 }
+@keyframes slidin{
+    from{
+        margin-left: 100px;
+    }to{
+        opacity: 0px;
+    }
+}
+
+
+.fad{
+    animation: fadin 3sec forwards;
+}
+.slidi{
+    animation: slidin 3sec forwards;
+}
