@@ -123,6 +123,7 @@ header {
 .human{
     width:200px;
     height:200px;
+    margin-left:35px;
 }
 hr{
     display:block;
