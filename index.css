@@ -192,7 +192,7 @@ display: flex;
 }
 
 .intro{
-font-size: 35px;
+font-size: 45px;
 margin-left: 75px;
 margin-top: 65px;
 }
@@ -200,7 +200,7 @@ margin-top: 65px;
     font-size: 12px;
     margin-left: 65px;
     margin-top: 65px;
-    line-height: 6px;
+    line-height: 4px;
 
 }
 .snmall{
