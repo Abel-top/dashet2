@@ -56,6 +56,16 @@ header {
 
  
 }
+.container3{
+    background: rgb(214, 49, 49);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    color: white;
+    padding: 65px;
+   
+    
+   }
 .container2{
     background: black;
     width: 100%;
