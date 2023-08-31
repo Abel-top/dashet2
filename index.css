@@ -137,6 +137,7 @@ header {
 }  
 #miss{
     margin-top: 125px;
+    margin-left:35px ;
     
 
 }
@@ -199,7 +200,7 @@ margin-top: 65px;
 }
 .intro_txt{
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
     white-space: pre-wrap;
 
 }
