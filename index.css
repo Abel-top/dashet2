@@ -30,14 +30,7 @@ header {
  
 
 }
-@keyframes welc {
-   
-    from {
-        margin-right: 100%;
-    }to{
-        margin-left:2% ;
-    }
-}
+
 
 #copy{
     font-size: 10px;
