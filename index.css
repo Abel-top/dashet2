@@ -108,7 +108,7 @@ header {
 }
 .container6{
     background: black;
-    width: 70%;
+    width: 100%;
     display: flex; 
     color: white;
     margin-left: 75px;
@@ -118,14 +118,14 @@ header {
 
 .container7{
     background: black;
-    width: 70%;
+    width: 100%;
     display: flex; 
     color: white;
     margin-left: 75px;
 }
 .container8{
     background: black;
-    width: 70%;
+    width: 100%;
     display: flex; 
     color: white;
     margin-left: 75px;
