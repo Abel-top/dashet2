@@ -252,10 +252,10 @@ margin-top: 65px;
     animation: slidin 3s forwards;
 }
 .animation {
-    opacity: 0;
+    /* opacity: 0;
     transform: translateX(-300px);
     transition: all 0.7s ease-out;
-    transition-delay: 0.4s;
+    transition-delay: 0.4s; */
 
 }
 
