@@ -16,7 +16,7 @@
    <div class="main">
    
    <div class="container1">
-    <p id="mukera" style="color:rgb(18, 47, 212)">HEllo</p>
+    
    
 
     <h2 class="wel" class="slidi">Welcome to Deshet 
@@ -233,8 +233,32 @@
     <img src="img/insta.png" href ="instagram.com" style="width:25px; height:25px; margin-left:4px">
 </div>
 <script>
-const ela =document.getElementById("mukera");
-ela.innerHTML="mukera new";
+
+
+const the_animation = document.querySelectorAll('.wel');
+
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('wel-anim')
+        }
+            else {
+                entry.target.classList.remove('wel-anim')
+            }
+        
+    })
+},
+   { threshold: 0.5
+   });
+//
+  for (let i = 0; i < the_animation.length; i++) {
+
+    const elements = the_animation[i];
+
+    observer.observe(elements);
+  } 
 
 </script>
 </body>
