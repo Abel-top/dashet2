@@ -1,4 +1,6 @@
-const the_animation = document.querySelectorAll('.wel')
+const the_animation = document.querySelectorAll('.wel');
+const ela =document.getElementById("mukera");
+ela.innerHTML="mukera new";
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
