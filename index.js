@@ -1,9 +1,21 @@
-window.addEventListener('scroll',function(){
-    var element=document.querySelector('.wel');
-    var position=element.getBoundingClientRect().top;
-    var winHeight=this.window.innerHeight;
-    if(position>windowHeight){
-        element.classList.add('animate');
-    }
+const the_animation = document.querySelectorAll('.wel')
 
-});
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('wel-anim')
+        }
+            else {
+                entry.target.classList.remove('wel-anim')
+            }
+        
+    })
+},
+   { threshold: 0.5
+   });
+//
+  for (let i = 0; i < the_animation.length; i++) {
+   const elements = the_animation[i];
+
+    observer.observe(elements);
+  } 

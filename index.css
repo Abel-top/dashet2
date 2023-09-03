@@ -49,6 +49,9 @@ header {
     animation: welc 3s forwards;
     
 }
+.wel-anim{
+    animation: welc 3s forwards;
+}
 @keyframes welc {
    
     from {
