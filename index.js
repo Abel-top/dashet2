@@ -1,5 +1,4 @@
-const ela =document.getElementById("mukera");
-ela.innerHTML="mukera new";
+
 
 // const the_animation = document.querySelectorAll('.wel');
 
