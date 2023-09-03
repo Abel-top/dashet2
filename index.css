@@ -50,7 +50,8 @@ header {
     
 }
 .wel-anim{
-    animation: welc 3s forwards;
+    opacity: 1;
+    transform: translateX(0);
 }
 @keyframes welc {
    
