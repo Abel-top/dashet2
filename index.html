@@ -17,7 +17,7 @@
    
    <div class="container1">
     
-   
+   <p class="animation">Animation first</p>
 
     <h2 class="wel" class="slidi">Welcome to Deshet 
     <img class="img1" src="img/Arrow-Down-Orange-BG.png">
@@ -77,6 +77,8 @@
 </div>
 
 <div class="container4">
+    
+  
     <h2 class="intro red" style="white-space: pre-wrap;">
     Are you tired...? 
     Welp, so are we.
@@ -115,6 +117,8 @@
         </h2>
 </div>
 <div class="container6">
+    
+   <p class="animation">Animation second </p>
     <h2 class="wel">Beyond a
         Studio
         
@@ -235,17 +239,15 @@
 <script>
 
 
-const the_animation = document.querySelectorAll('.wel');
-
-
+const the_animation = document.querySelectorAll('.animation')
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
-            entry.target.classList.add('wel-anim')
+            entry.target.classList.add('scroll-animation')
         }
             else {
-                entry.target.classList.remove('wel-anim')
+                entry.target.classList.remove('scroll-animation')
             }
         
     })
@@ -254,8 +256,7 @@ const observer = new IntersectionObserver((entries) => {
    });
 //
   for (let i = 0; i < the_animation.length; i++) {
-
-    const elements = the_animation[i];
+   const elements = the_animation[i];
 
     observer.observe(elements);
   } 
